@@ -2,6 +2,8 @@
 
 ## Dependencies
 
+Change 1
+
 - Python 3.9
 - MySQL 8.0
 - northwind database schema created and populated (I used this script https://en.wikiversity.org/wiki/Database_Examples/Northwind/MySQL, if something else is used, the program may need to be updated for different column names)
