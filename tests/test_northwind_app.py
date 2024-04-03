@@ -7,7 +7,7 @@ import pytest
 
 @pytest.fixture(scope='session')
 def app_url():
-    return 'http://localhost:5000'  # Adjust the URL if your Flask app is running on a different address/port
+    return 'http://34.245.85.213/'  # Adjust the URL if your Flask app is running on a different address/port
 
 def test_flask_app_running(app_url):
     response = requests.get(app_url)
